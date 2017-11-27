@@ -4,7 +4,7 @@
 *O čom tu celý čas rozprávame? Čo je to program? Čo je to algoritmus? Čo je to programovací jazyk? Ak si
 myslíš, že tieto základy už vieš, môžeš túto sekciu preskočiť, inak si ju radšej prečítaj.*
 
-**Algoritmus** je  postupnosť  niekoľkých  dobre  definovaných  inštrukcií  –  úkonov,  ktorá  slúži  na  vykonanie nejakej úlohy. Napríklad algoritmus na uvarenie čaju môže byť nasledovný:
+**Algoritmus** je  postupnosť  niekoľkých  dobre  definovaných  inštrukcií  –  krokov,  ktorá  slúži  na  vykonanie nejakej úlohy. Napríklad algoritmus na uvarenie čaju môže byť nasledovný:
 ```
 Zoberieme pohár, vrecúško čaju a rýchlovarnú kanvicu.
 Naplníme kanvicu vodou, zapojíme do zásuvky a zapneme. 
