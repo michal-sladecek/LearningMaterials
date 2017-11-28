@@ -86,7 +86,23 @@ int main()
 ```
 #####Cvičenie 4
 *Skúste predošlý program napísať tak, že použijete len jeden príkaz std::cout.*
+##Komentáre
+Občas potrebujeme do programu napísať vysvetlenie toho čo robíme - komentár. Komentáre kompilátor ignoruje, preto do nich môžme napísať čokoľvek. 
+```
+#include <iostream>
+//Toto je jednoriadkovy komentar, oznacuje sa dvoma lomitkami
 
+/*
+Ked chceme komentar na viac riadkov,
+pouzivame lomitko s hviezdickou
+*/
+int main()
+{
+	std::cout << "Ahoj!";	//Komentar moze byt aj tu
+	return 0;
+}
+```
+Je veľa rôznych názorov, prečo a kedy písať komentáre. My budeme občas komentáre používať, aby sme vám priamo v kóde vysvetlili, čo kód robí.
 ## Using namespace std
 Doteraz sme si nevysvetlili, prečo príkaz `std::cout` vyzerá tak zložito a škaredo. Čo znamená `std` a prečo tam sú tie dve dvojbodky? Toto je zložitejší a zatiaľ menej zaujímavý koncept v C++, zjednodušene sa dá pvoedať, že `cout` patrí do `std` a tak keď ho používame, musíme najprv povedať kde ho chceme hľadať. Kebyže ale máme v programe veľa rôznych vecí v `std` a nechce sa nám to písať vždy, keď niečo odtiaľ použijeme, vieme povedať kompilátoru, nech všetko skúsi hľadať rovno v `std`, tým, že na začiatok programu dáme `using namespace std;`.
 ```
