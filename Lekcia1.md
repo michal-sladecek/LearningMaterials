@@ -1,6 +1,6 @@
 # Úvod do C++
 
-# Čo je to vlastne program?
+## Čo je to vlastne program?
 *O čom tu celý čas rozprávame? Čo je to program? Čo je to algoritmus? Čo je to programovací jazyk? Ak si
 myslíš, že tieto základy už vieš, môžeš túto sekciu preskočiť, inak si ju radšej prečítaj.*
 
@@ -39,7 +39,7 @@ A výstup by vyzeral takto:
 Poďme teda naprogramovať náš prvý program!
 
  
-# Náš prvý program
+## Náš prvý program
 *Tu by som vás chcel poprosiť, aby ste nekopírovali programy pomocou Ctrl-C a Ctrl-V. Lepšie a rýchlejšie sa naučíte, ak vám to prejde cez prsty a sami si ich napíšete*
 
 ```
@@ -62,7 +62,7 @@ Na poslednom riadku ukončíme telo funkcie main druhou kučeravou zátvorkou.
 
 Nespomenuli sme si ešte jednu vec - niektoré riadky majú na konci `;`. Bodkočiarka v C++ označuje koniec príkazu. V našom programe sú len dva príkazy - jednym vypíšeme text `Ahoj` a druhým vrátime systému hodnotu 0. 
 
-## Poďme to spustiť!
+### Poďme to spustiť!
 Aby ste si nič nemuseli inštalovať, rozhodli sme sa používať online editor. Tento editor nájdete na stránke [tu](https://www.onlinegdb.com/online_c++_compiler). Napíšte tam váš program a kliknite na zelené tlačítko **Run**. Dole v konzole uvidíte vypísané `Ahoj!`. 
 
 *Pokiaľ budete mať s hocijakým cvičením problém, vždy sme tu na slacku my alebo spolužiaci. Skúste najprv prejsť všetky cvičenia predtým než budete pokračovať v texte*
@@ -86,7 +86,7 @@ int main()
 ```
 #####Cvičenie 4
 *Skúste predošlý program napísať tak, že použijete len jeden príkaz std::cout.*
-##Komentáre
+###Komentáre
 Občas potrebujeme do programu napísať vysvetlenie toho čo robíme - komentár. Komentáre kompilátor ignoruje, preto do nich môžme napísať čokoľvek. 
 ```
 #include <iostream>
@@ -103,6 +103,7 @@ int main()
 }
 ```
 Je veľa rôznych názorov, prečo a kedy písať komentáre. My budeme občas komentáre používať, aby sme vám priamo v kóde vysvetlili, čo kód robí.
+
 ## Using namespace std
 Doteraz sme si nevysvetlili, prečo príkaz `std::cout` vyzerá tak zložito a škaredo. Čo znamená `std` a prečo tam sú tie dve dvojbodky? Toto je zložitejší a zatiaľ menej zaujímavý koncept v C++, zjednodušene sa dá pvoedať, že `cout` patrí do `std` a tak keď ho používame, musíme najprv povedať kde ho chceme hľadať. Kebyže ale máme v programe veľa rôznych vecí v `std` a nechce sa nám to písať vždy, keď niečo odtiaľ použijeme, vieme povedať kompilátoru, nech všetko skúsi hľadať rovno v `std`, tým, že na začiatok programu dáme `using namespace std;`.
 ```
@@ -116,6 +117,17 @@ int main()
 }
 ```
 Hneď je to krajšie! Pozor ale, proti `using namespace std` vo veľkých projektoch existuje veľa výhrad, vy to ale zatiaľ môžte bežne používať.
+
+###Reťazenie cout
+```
+#include <iostream>
+int main()
+{
+	std::cout << "Ahoj " << "!\nPisem na novy riadok!" << "\n";
+	return 0;
+}
+```
+Dôležitá vlastnosť cout je, že môžme do neho postupne poslať viacero vecí  - horný program má rovnaký výsledok, ako ten pred nim. To, prečo je toto dôležité, zistite v ďalšej lekcii.
 
 #####Cvičenie 5
 *Predstav sa nám :) Naprogramuj program, ktorý vypíše, ako sa voláš, na akú školu chodíš, koľkaták si a koľko máš rokov. Môžeš nám o sebe napísať aj hocičo ďalšie, napr. čo by si sa chcel naučiť v tomto kurze. Fungujúci zdrojový kód programu nám prosím pošli cez Slack.*
