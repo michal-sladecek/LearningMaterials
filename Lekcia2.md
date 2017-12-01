@@ -139,11 +139,11 @@ V celých číslach existuje aj druhá operácia súvisiaca s delením, zvyšok 
 #####Cvičenie 7
 *Napíšte program, ktorý na vstupe dostane dve čísla a vypíše ich súčet, súčin, podiel a zvyšok po delení.*
 #####Cvičenie 8
-*Vyriešte na testovači úlohu obdĺžnik.*
+*Vyriešte na testovači úlohu obdĺžnik a priemer.*
 #####Cvičenie 9
 *Medzi typmi premenných, ktoré sme si ukázali bol aj `char`. Skúste k premennej typu `char` pripočítať malé celé číslo (napr. 2). Skúste `char` inkrementovať. Aké hodnoty sa vypíšu? Zistite, koľko bitov má char a čo je ASCII tabuľka.*
 #####Cvičenie 10
-*Čo sa stane ak vydelíme alebo vymodulujeme nulou?*
+*Čo sa stane ak vydelíme alebo spravíme zvyšok po delení nulou?*
 #####Cvičenie 11
 *Zistite čo najviac o reálnych číslach typu `double`. Skúste si v programe zadefinovať pár takýchto premenných a skúste si ich vydeliť, vynásobiť... Zistite, čo sa deje ak ku `int` pripočítame `double` a naopak.*
 
