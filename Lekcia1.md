@@ -1,30 +1,69 @@
+# Lekcia 1
+
+Ahojte. Vítajte pri prvej lekcii programovania. Verte, že nie ste prví, ktorí sa
+chcú naučiť programovať a že my sami vieme, aké to zo začiatku bolo zložité. Preto
+sa na vás budeme snažiť ísť pomaly a všetko vysvetlovať o trochu podrobnejšie ako
+v iných tutoriáloch.
+
+# Motivácia
+
+Čo je našou motiváciou? Táto otázka znie možno zbytočne ale je treba si na ňu
+odpovedať. Programovanie má zmysel vtedy, keď rieši problémy, ktoré majú ľudia v
+reálnom živote. Keď nám umožňuje tvoriť niečo, čoho by sme bez počítaču neboli
+schopní. Či už vás programovanie láka len pre vašu zvedavosť alebo sa tešíte ako
+si raz naprogramujete vlastnú hru, toto je asi najlepšie miesto, kde začať.
+
+Ak sa vám aj bude v priebehu tutoriálu zdať, že robíte niečo nezmyselné, vedzte,
+že časom vám bude dávať zmysel, prečo sme vás niečo učili tak a onak :).
+
+# O zložitosti počítania
+
+V čom je teda problém? Ak dostaneme úlohu, dáme ju vyriešiť počítaču, stačí ak 
+počkáme a tešíme sa z výsledku. Iste viete, že taká realita nie je. Počítač je
+napriek pokusov ľudí stále vcelku hlúpy stroj, ktorý nám nerozumie. Zďaleka si
+nevie prečítať príklad a vypľuť výsledok. Počítač si môže programátor predstaviť
+ako takú kalkulačku. Počítač síce nie je schopný čítať ani nám rozumieť ale vie
+počítať a to bez chýb a ako bonus neuveriteľne rýchlo.
+
+Pre predstavu, ak mu zadáme dve šesť ciferné čísla. Dokáže nám za jednu
+sekundu 1 000 000-krát vypočítať ich násobok. To je celkom fajn :). Tieto 2 veci
+budeme na počítači časom zbožnovať. Oproti nám ľuďom dokáže matematické operácie
+robiť pozoruhodne rýchlo, bez chýb a taktiež opakovane ako opica. Veď skús od
+nejakého človeka požadovať aby ti len 1000 - krát vynásobil tie isté čísla :P.
+
+Čo potrebujeme my, je naučiť sa s počítačom komunikovať pomocou jeho reči. To však
+nie je nijak jednoduché. Všetko, čomu počítač rozumie sú 0 a 1. Preto ľudia vymysleli
+programovacie jazyky. To sú jazyky, ktoré su tak na polceste medzi ľuďmi a počítačmi.
+V preklade : počítač si ich vie preložiť na príkazy(inštrukcie), ktorým on rozumie
+a my nemusíme písať namiesto 5 + 3 : "101 101011 11".
+
+Samozrejme, programovacie jazyky sa rozdeľujú ešte na vyššie a nižšie podľa toho,
+ako blízko sú reči počítača a ako blízko reči človeka, taký Python patrí medzi
+vyššie programovacie jazyky, pretože sa najviac podobá ľudskej reči. C++ napríklad
+patrí medzi nižšie jazyky, teda je viac podobný tomu, čomu rozumie počítač. Výhodou
+nižších jazykov je ich rýchlosť a to napríklad z dôvodu, že si ich vie počítač ľahšie
+preložiť do svojho rýchleho kódu.
+
+My sme sa rozhodli pre vyučovanie v jazyku C++ a to z dôvodu, že je to zlatá
+stredná cesta medzi tým čomu rozumieme, pričom si zachováva ozajstnú rýchlosť.
+
+Po siahodlhom úvode dúfame, že sme ta zatiaľ neodradili. Teraz už prichádza sľubované C++.
+
 # Úvod do C++
 
 ## Čo je to vlastne program?
-*O čom tu celý čas rozprávame? Čo je to program? Čo je to algoritmus? Čo je to programovací jazyk? Ak si
-myslíš, že tieto základy už vieš, môžeš túto sekciu preskočiť, inak si ju radšej prečítaj.*
 
-**Algoritmus** je  postupnosť  niekoľkých  dobre  definovaných  inštrukcií  –  krokov,  ktorá  slúži  na  vykonanie nejakej úlohy. Napríklad algoritmus na uvarenie čaju môže byť nasledovný:
-```
-Zoberieme pohár, vrecúško čaju a rýchlovarnú kanvicu.
-Naplníme kanvicu vodou, zapojíme do zásuvky a zapneme. 
-Kým voda nevrie, čakáme. 
-Do pohára vložíme vrecúško čaju a zalejeme vriacou vodou.
-Kanvicu vypneme a vypojíme zo zásuvky.
-Počkáme 8 minút a potom vyberieme vrecúško.
-```
-Super, vieme uvariť čaj (teda ak máme kanvicu atď. .), ale v tejto chvíli nás zaujímajú počítače. A počítač nevie  naplniť  kanvicu  vodou,  ani  nevie,  čo  je  kanvica  alebo  čo  je  voda.  Predošlý  algoritmus  je  ozajstným *algoritmom* len vtedy, ak vieme, čo znamenajú jednotlivé úkony (napríklad čo znamená zobrať pohár).
+Ako sme už spomínali, s počítačom komunikujeme a zadávame mu prácu pomocou inštrukcií.
+Tieto sú samozrejme trochu jednoduchšie. Preto ich treba na vypočítanie rozumnej veci
+zväčša viac. Rozumným spôsobom je použíť viac príkazov na výpočet niečoho a zaobaliť
+ich do jedného programu. 
 
-Keď budeme vytvárať algoritmy pre počítače, tak budeme používať celkom iné inštrukcie – také, ktorým počítač rozumie a vie ich aj vykonávať.
-Medzi inštrukcie, ktoré počítač vie vykonávať patria napríklad jednoduché aritmetické operácie (sčítanie, delenie. . . ), čítanie z pamäte, ukladanie do pamäte, ale aj mnoho ďalších.
-Avšak aby im dobre rozumel, musia byť zapísané ako hromada núl a jednotiek. A tým zase veľmi nerozumieme my ľudia. Preto existujú *programovacie jazyky*. Tie sú (väčšinou) dobre čitateľné ľuďmi a navyše si ich vie počítač prepísať do svojich jednotiek a núl.
-
-My sa budeme zaoberať programovacím jazykom C++, ktorý patrí medzi vyššie programovacie jazyky – to znamená, že sa lepšie číta ľuďmi a zvláda toho oveľa viac ako nižšie.
-
-**Program** je skupina inštrukcií v nejakom programovacom jazyku. A tieto programy obvykle niečo robia, inak by nám boli nanič.
-V  našom  prípade  budeme  pracovať  s  programami,  ktoré  načítajú  nejaký  vstup  a  vypíšu  nejaký  výstup. 
+**Program** je skupina inštrukcií v nejakom programovacom jazyku. Tieto programy
+obvykle robia niečo zložitejšie ako násobenie dvoch čísiel a preto má takéto zlučovanie
+zmysel. V  našom  prípade  budeme  pracovať po väčšine s programami, ktoré načítajú nejaký vstup a vypíšu nejaký výstup.
 **Vstup** je všetko, čo program dostane od nás. V našom prípade to bude väčšinou text, ktorý napíšeme do konzoly. 
 **Výstup** je to, čo náš program vráti naspäť. U nás teda pôjde o to, čo vypíše do konzoly program.
+
 Napríklad sčítací program môže načítať dve čísla a vypísať ich súčet.  Vstup by vyzeral takto:
 ```12 17```
 A výstup by vyzeral takto:
