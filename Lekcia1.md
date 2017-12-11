@@ -20,13 +20,13 @@ Ak sa vám aj bude v priebehu tutoriálu zdať, že robíte niečo nezmyselné, 
 
 V čom je teda problém? Ak dostaneme úlohu, dáme ju vyriešiť počítaču, stačí ak 
 počkáme a tešíme sa z výsledku. Iste viete, že taká realita nie je. Počítač je
-napriek pokusov ľudí stále vcelku hlúpy stroj, ktorý nám nerozumie. Zďaleka si
+napriek pokusom ľudí stále vcelku hlúpy stroj, ktorý nám nerozumie. Zďaleka si
 nevie prečítať príklad a vypľuť výsledok. Počítač si môže programátor predstaviť
 ako takú kalkulačku. Počítač síce nie je schopný čítať ani nám rozumieť ale vie
 počítať a to bez chýb a ako bonus neuveriteľne rýchlo.
 
 Pre predstavu, ak mu zadáme dve šesť ciferné čísla. Dokáže nám za jednu
-sekundu 1 000 000-krát vypočítať ich násobok. To je celkom fajn :). Tieto 2 veci
+sekundu 1 000 000 000-krát vypočítať ich násobok. To je celkom fajn :). Tieto 2 veci
 budeme na počítači časom zbožnovať. Oproti nám ľuďom dokáže matematické operácie
 robiť pozoruhodne rýchlo, bez chýb a taktiež opakovane ako opica. Veď skús od
 nejakého človeka požadovať aby ti len 1000 - krát vynásobil tie isté čísla :P.

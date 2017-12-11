@@ -23,7 +23,7 @@ Ako získame v C++ výroky? V C++ máme typ premennej `bool`, ktorý môže nado
 using namespace std;
 int main()
 {
-	bool a = (1==3);			// rovna sa	
+	bool a = (1==3);			// rovna sa	. vsimnite si dve rovna sa. Jedno by znamenalo priradenie.
 	bool b = (1<''3);			// menej ako
 	bool c = (2>3);			// viac ako
 	int x,y;
