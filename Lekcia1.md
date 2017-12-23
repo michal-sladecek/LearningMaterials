@@ -93,7 +93,8 @@ int main()
 ```
 ***Cvičenie 4***
 *Skúste predošlý program napísať tak, že použijete len jeden príkaz std::cout.*
-###Komentáre
+
+### Komentáre
 Občas potrebujeme do programu napísať vysvetlenie toho čo robíme - komentár. Komentáre kompilátor ignoruje, preto do nich môžme napísať čokoľvek. 
 ```
 #include <iostream>
@@ -125,7 +126,7 @@ int main()
 ```
 Hneď je to krajšie! Pozor ale, proti `using namespace std` vo veľkých projektoch existuje veľa výhrad, vy to ale zatiaľ môžte bežne používať.
 
-###Reťazenie cout
+### Reťazenie cout
 ```
 #include <iostream>
 int main()
@@ -140,7 +141,7 @@ Dôležitá vlastnosť cout je, že môžme do neho postupne poslať viacero vec
 *Predstav sa nám :) Naprogramuj program, ktorý vypíše, ako sa voláš, na akú školu chodíš, koľkaták si a koľko máš rokov. Môžeš nám o sebe napísať aj hocičo ďalšie, napr. čo by si sa chcel naučiť v tomto kurze. Fungujúci zdrojový kód programu nám prosím pošli cez Slack.*
 
 
-###Testovač
+### Testovač
 Aby sme nemuseli všetky vaše úlohy testovať ručne, našli sme testovač ktorý to bude robiť za nás. Testovač sa nachádza na stránke [https://testovac.ksp.sk/wiki/](https://testovac.ksp.sk/wiki/), musíte sa zaregistrovať. Tvoju prezývku nám pošli cez Slack, môžeš aj v rámci cvičenia 5. 
 Až budete zaregistrovaní a prihlásení, nájdite si prvú úlohu zo sady *Úvod do programovania* - **Ahoj**. 
 V úlohe odovzdávate váš program (musíte si ho stiahnúť na počítač, ak ho píšete v online editore, je to jedno z tlačítok - šipka smerujúca nadol)  a testovač vám automaticky povie, či je správny. Úloha je veľmi jednoduchá, skúste ju vyriešiť :)
@@ -148,7 +149,5 @@ V úlohe odovzdávate váš program (musíte si ho stiahnúť na počítač, ak 
 
 
 Tak držím palce v plnení úloh, píšte, ak máte hocijaké nejasnosti alebo problémy. O týždeň si povieme niečo o premenných a o tom, ako načítavať vstup z konzoly. Veľa šťastia :) 
-
-
 
 
